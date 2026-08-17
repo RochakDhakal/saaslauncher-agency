@@ -1,0 +1,339 @@
+/*
+Theme Name: SaasLauncher Agency
+Author: CozyThemes
+Author URI: https://cozythemes.com/
+Description: SaasLauncher Agency is a modern WordPress Full Site Editing (FSE) child theme of SaasLauncher, designed for digital agencies, creative studios, marketing firms, and professional service businesses. It combines a clean, professional design with flexible templates, patterns, and global style options, allowing you to easily customize your website's layout, colors, typography, and content directly through the WordPress Site Editor without extensive coding.
+Template: saaslauncher
+Version: 1.0.1
+Requires at least: 7.0
+Tested up to: 7.0
+Requires PHP: 7.0
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: saaslauncher-agency
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
+*/
+.saaslauncher-agency-contact-form form input,
+.saaslauncher-agency-contact-form form textarea {
+  background: transparent;
+  font-family: var(--wp--preset--font-family--space-grotesk) !important;
+  font-weight: 700 !important;
+  font-size: var(--wp--preset--font-size--large);
+  color: var(--wp--preset--color--foreground);
+  border-radius: 0px !important;
+  border: 0px !important;
+  border-bottom: 2px solid var(--wp--preset--color--foreground) !important;
+}
+.saaslauncher-agency-contact-form form textarea {
+  height: 100px !important;
+}
+.saaslauncher-agency-contact-form form input[type="submit"] {
+  background: transparent;
+  font-size: var(--wp--preset--font-size--large) !important;
+  font-family: var(--wp--preset--font-family--space-grotesk) !important;
+  border: none !important;
+  padding: 0px !important;
+  margin-top: 40px !important;
+}
+.saaslauncher-agency-contact-form form input[type="submit"]:hover {
+  background: transparent !important;
+  cursor: pointer;
+  color: var(--wp--preset--color--secondary) !important;
+}
+.entry-content.wp-block-post-content a,
+.wp-block-comment-content a,
+p a,
+.wp-block-heading a {
+  text-decoration: underline;
+}
+/*button hover style*/
+.wp-block-button.is-style-button-hover-primary-color a:hover {
+  color: var(--wp--preset--color--primary) !important;
+  border-color: var(--wp--preset--color--primary) !important;
+}
+.wp-block-button.is-style-button-hover-secondary-color a:hover {
+  color: var(--wp--preset--color--secondary) !important;
+  border-color: var(--wp--preset--color--secondary) !important;
+}
+.wp-block-button.is-style-button-hover-primary-bgcolor
+  a.wp-block-button__link.wp-element-button:hover {
+  background: var(--wp--preset--color--primary) !important;
+  opacity: 1;
+  color: var(--wp--preset--color--light-color) !important;
+  border-color: var(--wp--preset--color--primary) !important;
+}
+.wp-block-button.is-style-button-hover-secondary-bgcolor
+  a.wp-block-button__link.wp-element-button:hover {
+  background: var(--wp--preset--color--secondary) !important;
+  opacity: 1;
+  color: var(--wp--preset--color--light-color) !important;
+  border-color: var(--wp--preset--color--secondary) !important;
+}
+.wp-block-button.is-style-button-hover-light-bgcolor
+  a.wp-block-button__link.wp-element-button:hover {
+  background: var(--wp--preset--color--light-color) !important;
+  opacity: 1;
+  color: var(--wp--preset--color--light-color) !important;
+  border-color: var(--wp--preset--color--light-color) !important;
+}
+
+.wp-block-group.is-style-saaslauncher-gradient-border,
+.wp-block-button.is-style-button-with-gradient-border a.wp-block-button__link {
+  border-color: transparent !important;
+  background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(
+        var(--wp--preset--color--dark-shade),
+        var(--wp--preset--color--dark-shade)
+      )
+      padding-box,
+    linear-gradient(
+        162deg,
+        var(--wp--preset--color--primary) 35%,
+        var(--wp--preset--color--light-color)
+      )
+      border-box;
+}
+.wp-block-group.is-style-saaslauncher-gradient-border.has-background-alt-background-color,
+.wp-block-button.is-style-button-with-gradient-border
+  a.wp-block-button__link.has-background-alt-background-color {
+  border-color: transparent !important;
+  background:
+    linear-gradient(
+        var(--wp--preset--color--background-alt),
+        var(--wp--preset--color--background-alt)
+      )
+      padding-box,
+    linear-gradient(
+        var(--wp--preset--color--dark-shade),
+        var(--wp--preset--color--dark-shade)
+      )
+      padding-box,
+    linear-gradient(
+        162deg,
+        var(--wp--preset--color--primary) 35%,
+        var(--wp--preset--color--light-color)
+      )
+      border-box;
+}
+.wp-block-group.is-style-saaslauncher-gradient-border.has-primary-background-color,
+.wp-block-button.is-style-button-with-gradient-border
+  a.wp-block-button__link.has-primary-background-color {
+  border-color: transparent !important;
+  background:
+    linear-gradient(
+        var(--wp--preset--color--primary),
+        var(--wp--preset--color--primary)
+      )
+      padding-box,
+    linear-gradient(
+        var(--wp--preset--color--dark-shade),
+        var(--wp--preset--color--dark-shade)
+      )
+      padding-box,
+    linear-gradient(
+        162deg,
+        var(--wp--preset--color--primary) 35%,
+        var(--wp--preset--color--light-color)
+      )
+      border-box;
+}
+.wp-block-group.is-style-saaslauncher-gradient-border.has-secondary-background-color,
+.wp-block-button.is-style-button-with-gradient-border
+  a.wp-block-button__link.has-secondary-background-color {
+  border-color: transparent !important;
+  background:
+    linear-gradient(
+        var(--wp--preset--color--secondary),
+        var(--wp--preset--color--secondary)
+      )
+      padding-box,
+    linear-gradient(
+        var(--wp--preset--color--dark-shade),
+        var(--wp--preset--color--dark-shade)
+      )
+      padding-box,
+    linear-gradient(
+        162deg,
+        var(--wp--preset--color--primary) 35%,
+        var(--wp--preset--color--light-color)
+      )
+      border-box;
+}
+.wp-block-group.is-style-saaslauncher-gradient-border.has-dark-shade-background-color,
+.wp-block-button.is-style-button-with-gradient-border
+  a.wp-block-button__link.has-dark-shade-background-color {
+  border-color: transparent !important;
+  background:
+    linear-gradient(
+        var(--wp--preset--color--dark-shade),
+        var(--wp--preset--color--dark-shade)
+      )
+      padding-box,
+    linear-gradient(
+        var(--wp--preset--color--dark-shade),
+        var(--wp--preset--color--dark-shade)
+      )
+      padding-box,
+    linear-gradient(
+        162deg,
+        var(--wp--preset--color--primary) 35%,
+        var(--wp--preset--color--light-color)
+      )
+      border-box;
+}
+.wp-block-group.is-style-saaslauncher-gradient-border.has-primary-shade-one-background-color,
+.wp-block-button.is-style-button-with-gradient-border
+  a.wp-block-button__link.has-primary-shade-one-background-color {
+  border-color: transparent !important;
+  background:
+    linear-gradient(
+        var(--wp--preset--color--primary-shade-one),
+        var(--wp--preset--color--primary-shade-one)
+      )
+      padding-box,
+    linear-gradient(
+        var(--wp--preset--color--dark-shade),
+        var(--wp--preset--color--dark-shade)
+      )
+      padding-box,
+    linear-gradient(
+        162deg,
+        var(--wp--preset--color--primary) 35%,
+        var(--wp--preset--color--light-color)
+      )
+      border-box;
+}
+.wp-block-group.is-style-saaslauncher-gradient-border.has-black-color-background-color,
+.wp-block-button.is-style-button-with-gradient-border
+  a.wp-block-button__link.has-black-color-background-color {
+  border-color: transparent !important;
+  background:
+    linear-gradient(
+        var(--wp--preset--color--black-color),
+        var(--wp--preset--color--black-color)
+      )
+      padding-box,
+    linear-gradient(
+        var(--wp--preset--color--dark-shade),
+        var(--wp--preset--color--dark-shade)
+      )
+      padding-box,
+    linear-gradient(
+        162deg,
+        var(--wp--preset--color--primary) 35%,
+        var(--wp--preset--color--light-color)
+      )
+      border-box;
+}
+.wp-block-group.is-style-saaslauncher-gradient-border.has-primary-shade-2-background-color,
+.wp-block-button.is-style-button-with-gradient-border
+  a.wp-block-button__link.has-primary-shade-2-background-color {
+  border-color: transparent !important;
+  background:
+    linear-gradient(
+        var(--wp--preset--color--primary-shade-2),
+        var(--wp--preset--color--primary-shade-2)
+      )
+      padding-box,
+    linear-gradient(
+        var(--wp--preset--color--dark-shade),
+        var(--wp--preset--color--dark-shade)
+      )
+      padding-box,
+    linear-gradient(
+        162deg,
+        var(--wp--preset--color--primary) 35%,
+        var(--wp--preset--color--light-color)
+      )
+      border-box;
+}
+.wp-block-button.is-style-button-with-gradient-border
+  a.wp-block-button__link.has-primary-shade-2-background-color {
+  border-color: transparent !important;
+  background:
+    linear-gradient(
+        var(--wp--preset--color--primary-shade-2),
+        var(--wp--preset--color--primary-shade-2)
+      )
+      padding-box,
+    linear-gradient(
+        var(--wp--preset--color--dark-shade),
+        var(--wp--preset--color--dark-shade)
+      )
+      padding-box,
+    linear-gradient(
+        162deg,
+        var(--wp--preset--color--primary) 35%,
+        var(--wp--preset--color--light-color)
+      )
+      border-box;
+}
+.has-black-color-background-color,
+.wp-block-button.is-style-button-with-gradient-border
+  a.wp-block-button__link.has-black-color-background-color {
+  border-color: transparent !important;
+  background:
+    linear-gradient(
+        var(--wp--preset--color--black-color),
+        var(--wp--preset--color--black-color)
+      )
+      padding-box,
+    linear-gradient(
+        var(--wp--preset--color--dark-shade),
+        var(--wp--preset--color--dark-shade)
+      )
+      padding-box,
+    linear-gradient(
+        162deg,
+        var(--wp--preset--color--primary) 35%,
+        var(--wp--preset--color--light-color)
+      )
+      border-box;
+}
+.wp-block-button.is-style-button-with-gradient-border
+  a.wp-block-button__link:hover {
+  background: var(--wp--preset--color--secondary) !important;
+  color: #fff !important;
+}
+.wp-block-button.is-style-button-with-shadow-style-one a {
+  background: radial-gradient(
+    40% 100% at 50% 50%,
+    var(--wp--preset--color--primary-shade-one) 0%,
+    var(--wp--preset--color--primary) 100%
+  );
+  position: relative;
+  transition: all ease 0.23s;
+}
+.wp-block-button.is-style-button-with-shadow-style-one a:hover {
+  background: radial-gradient(
+    60% 100% at 50% 50%,
+    var(--wp--preset--color--primary-shade-one) 0%,
+    var(--wp--preset--color--primary) 100%
+  );
+}
+.wp-block-button.is-style-button-with-shadow-style-two a {
+  position: relative;
+}
+.wp-block-button.is-style-button-with-shadow-style-two a:hover {
+  background: var(--wp--preset--color--primary) !important;
+  color: #fff !important;
+}
+.wp-block-button.is-style-button-with-shadow-style-one a:before,
+.wp-block-button.is-style-button-with-shadow-style-two a:before {
+  content: "";
+  width: 100%;
+  height: 92%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 1px solid var(--wp--preset--color--primary-shade-one);
+  border-radius: 60px;
+  box-sizing: border-box;
+}
+
+/* Outline Button Variant */
+.wp-block-button.is-style-outline a.wp-block-button__link:hover {
+  border-color: var(--wp--preset--color--primary) !important;
+  color: var(--wp--preset--color--primary) !important;
+}
