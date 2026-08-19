@@ -10,12 +10,20 @@
 <!-- wp:group {"metadata":{"patternName":"saaslauncher-agency/blogs","name":"Blogs","categories":["saaslauncher-agency-patterns"]},"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"1260px"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading">Insights</h2>
+<h2 class="wp-block-heading">
+<?php
+	esc_html_e( 'Insights', 'saaslauncher-agency' );
+?>
+</h2>
 <!-- /wp:heading -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"transparent","textColor":"light-color","className":"is-style-button-with-uparrow-icon","style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"fontSize":"normal"} -->
-<div class="wp-block-button is-style-button-with-uparrow-icon"><a class="wp-block-button__link has-light-color-color has-transparent-background-color has-text-color has-background has-link-color has-normal-font-size has-custom-font-size wp-element-button">View All</a></div>
+<div class="wp-block-button is-style-button-with-uparrow-icon"><a class="wp-block-button__link has-light-color-color has-transparent-background-color has-text-color has-background has-link-color has-normal-font-size has-custom-font-size wp-element-button">
+<?php
+	esc_html_e( 'View All', 'saaslauncher-agency' );
+?>
+</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -41,7 +49,11 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p>Oops! Blogs Not Found.</p>
+<p>
+<?php
+	esc_html_e( 'Oops! Blogs Not Found.', 'saaslauncher-agency' );
+?>
+</p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></div>
