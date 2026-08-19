@@ -63,3 +63,12 @@ Source: https://pxhere.com/en/photo/
 
 Google Fonts:
 
+Font: Inter,
+Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+License: https://openfontlicense.org
+Source: https://github.com/rsms/inter
+
+Font: Bricolage Grotesque,
+Copyright 2022 The Bricolage Grotesque Project Authors (https://github.com/ateliertriay/bricolage)
+License: https://openfontlicense.org
+Source: https://github.com/ateliertriay/bricolage

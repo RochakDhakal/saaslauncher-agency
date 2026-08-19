@@ -1,44 +1,35 @@
 <?php
 
 /**
- * Title: CTA
+ * Title: Call To Action
  * Slug: saaslauncher-agency/cta
- * Categories: saaslauncher-agency-patterns
+ * Categories:  saaslauncher-agency-patterns
  */
-$saaslauncher_agency_url    = trailingslashit( get_stylesheet_directory_uri() );
-$saaslauncher_agency_images = array(
-	$saaslauncher_agency_url . 'assets/images/cta.png',
-);
 
 ?>
-<!-- wp:group {"metadata":{"patternName":"saaslauncher-agency/cta","name":"CTA","categories":["saaslauncher-agency-patterns"]},"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"120px","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"1180px"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:120px;padding-left:var(--wp--preset--spacing--40)"><!-- wp:cover {"url":"<?php echo esc_url( $saaslauncher_agency_images[0] ); ?>","id":462,"isUserOverlayColor":true,"minHeight":500,"gradient":"gradient-3","sizeSlug":"large","style":{"border":{"radius":{"topLeft":"24px","topRight":"24px","bottomLeft":"24px","bottomRight":"24px"}},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"860px"}} -->
-<div class="wp-block-cover" style="border-top-left-radius:24px;border-top-right-radius:24px;border-bottom-left-radius:24px;border-bottom-right-radius:24px;margin-top:0;margin-bottom:0;min-height:500px"><img class="wp-block-cover__image-background wp-image-462 size-large" alt="" src="<?php echo esc_url( $saaslauncher_agency_images[0] ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim wp-block-cover__gradient-background has-background-gradient has-gradient-3-gradient-background"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading {"style":{"typography":{"textAlign":"center"}}} -->
-<h2 class="wp-block-heading has-text-align-center">
-<?php
-	esc_html_e( 'Try It Free. Scale When You’re Ready.', 'saaslauncher-agency' );
-?>
-</h2>
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"gradient":"gradient-3","layout":{"type":"constrained","contentSize":"850px"}} -->
+<div class="wp-block-group has-gradient-3-gradient-background has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading {"style":{"typography":{"textAlign":"center"}}} -->
+<h2 class="wp-block-heading has-text-align-center">Ready to build something exceptional?</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"typography":{"textAlign":"center"},"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
-<p class="has-text-align-center" style="margin-top:var(--wp--preset--spacing--50)">
-<?php
-	esc_html_e( 'Get your website live fast with scalable SaaS tools designed to maximize performance and fuel seamless, sustainable business growth.', 'saaslauncher-agency' );
-?>
-</p>
+<!-- wp:group {"layout":{"type":"constrained","contentSize":"575px"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"textAlign":"center"},"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
+<p class="has-text-align-center" style="margin-top:var(--wp--preset--spacing--50)">Let's create a digital experience that helps your business stand out and grow.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-button-with-arrow-icon"} -->
-<div class="wp-block-button is-style-button-with-arrow-icon"><a class="wp-block-button__link wp-element-button">
-<?php
-	esc_html_e( 'Try For Free', 'saaslauncher-agency' );
-?>
-</a></div>
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--60)"><!-- wp:button {"className":"is-style-button-with-uparrow-icon"} -->
+<div class="wp-block-button is-style-button-with-uparrow-icon"><a class="wp-block-button__link wp-element-button">Start Your Project</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"backgroundColor":"transparent","textColor":"light-color","className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"border":{"width":"1px"}},"borderColor":"border-color"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-light-color-color has-transparent-background-color has-text-color has-background has-link-color has-border-color has-border-color-border-color wp-element-button" style="border-width:1px">Book a Consultation</a></div>
 <!-- /wp:button --></div>
-<!-- /wp:buttons --></div>
-<!-- /wp:group --></div></div>
-<!-- /wp:cover --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph {"style":{"typography":{"textAlign":"center"},"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
+<p class="has-text-align-center" style="margin-top:var(--wp--preset--spacing--40)">Average reply time: 4 hours · Projects from $25k</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
