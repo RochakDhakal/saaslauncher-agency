@@ -15,7 +15,6 @@ $saaslauncher_agency_url        = trailingslashit( get_stylesheet_directory_uri(
 		$saaslauncher_agency_url . 'assets/images/brand-6.png',
 	);
 	?>
-?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher-agency-patterns"],"patternName":"saaslauncher-agency/brand-showcase","name":"Brand Showcase"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}},"border":{"top":{"color":"var:preset|color|border-color","style":"solid","width":"1px"},"right":{"width":"0px","style":"none"},"bottom":{"color":"var:preset|color|border-color","style":"solid","width":"1px"},"left":{"width":"0px","style":"none"}}},"gradient":"gradient-2","layout":{"type":"constrained","contentSize":"1260px"}} -->
 <div class="wp-block-group has-gradient-2-gradient-background has-background" style="border-top-color:var(--wp--preset--color--border-color);border-top-style:solid;border-top-width:1px;border-right-style:none;border-right-width:0px;border-bottom-color:var(--wp--preset--color--border-color);border-bottom-style:solid;border-bottom-width:1px;border-left-style:none;border-left-width:0px;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
 <p class="has-x-small-font-size" style="text-transform:uppercase">
