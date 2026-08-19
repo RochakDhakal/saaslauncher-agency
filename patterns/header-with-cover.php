@@ -40,13 +40,21 @@
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group" style="padding-right:0;padding-left:0"><!-- wp:list {"className":"is-style-list-style-check-circle","style":{"border":{"width":"1px","style":"solid","color":"#35393D","radius":{"topLeft":"100px","topRight":"100px","bottomLeft":"100px","bottomRight":"100px"}},"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}}} -->
 <ul style="border-color:#35393D;border-style:solid;border-width:1px;border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-left-radius:100px;border-bottom-right-radius:100px;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--40)" class="wp-block-list is-style-list-style-check-circle has-border-color"><!-- wp:list-item -->
-<li>Digital Studio EST.2026</li>
+<li>
+<?php
+	esc_html_e( 'Digital Studio EST.2026', 'saaslauncher-agency' );
+?>
+</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"fontSize":"giga"} -->
-<h2 class="wp-block-heading has-giga-font-size">We build digital<br>experiences that<br>drive growth.</h2>
+<h2 class="wp-block-heading has-giga-font-size">
+<?php
+	esc_html_e( 'We build digital experiences that drive growth.', 'saaslauncher-agency' );
+?>
+</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground"} -->

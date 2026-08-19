@@ -13,39 +13,53 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: saaslauncher-agency
 Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
 */
-.saaslauncher-agency-contact-form form input,
-.saaslauncher-agency-contact-form form textarea {
-  background: transparent;
-  font-family: var(--wp--preset--font-family--space-grotesk) !important;
-  font-weight: 700 !important;
-  font-size: var(--wp--preset--font-size--large);
-  color: var(--wp--preset--color--foreground);
-  border-radius: 0px !important;
-  border: 0px !important;
-  border-bottom: 2px solid var(--wp--preset--color--foreground) !important;
-}
-.saaslauncher-agency-contact-form form textarea {
-  height: 100px !important;
-}
-.saaslauncher-agency-contact-form form input[type="submit"] {
-  background: transparent;
-  font-size: var(--wp--preset--font-size--large) !important;
-  font-family: var(--wp--preset--font-family--space-grotesk) !important;
-  border: none !important;
-  padding: 0px !important;
-  margin-top: 40px !important;
-}
-.saaslauncher-agency-contact-form form input[type="submit"]:hover {
-  background: transparent !important;
-  cursor: pointer;
-  color: var(--wp--preset--color--secondary) !important;
-}
 .entry-content.wp-block-post-content a,
 .wp-block-comment-content a,
 p a,
 .wp-block-heading a {
   text-decoration: underline;
 }
+
+/* Newsletter */
+form.wpcf7-form p {
+  & input.wpcf7-form-control {
+    padding: 12px 26px !important;
+    font: var(--wp--preset--font-size--normal);
+    font-family: var(--wp--preset--font-family--inter);
+    border-radius: 12px;
+    border: 1px solid var(--wp--preset--color--border-color);
+  }
+  & input.wpcf7-submit {
+    background-color: var(--wp--preset--color--primary) !important;
+  }
+  & input.wpcf7-submit:hover {
+    background-color: var(--wp--preset--color--secondary) !important;
+    border-color: var(--wp--preset--color--border-color);
+  }
+}
+.saaslauncher-agency-newsletter.wp-block-contact-form-7-contact-form-selector {
+  & form.wpcf7-form p {
+    position: relative;
+    & input.wpcf7-form-control {
+      padding: 14px 28px !important;
+      border-radius: 100px !important;
+      color: var(--wp--preset--color--light-color);
+      background: var(--wp--preset--color--background) !important;
+    }
+    & input.wpcf7-submit {
+      position: absolute;
+      right: 6px;
+      top: 4px;
+      padding: 8px 24px !important;
+      color: var(--wp--preset--color--secondary);
+      background: var(--wp--preset--color--light-color) !important;
+    }
+    & input.wpcf7-submit:hover {
+      background: var(--wp--preset--color--primary) !important;
+    }
+  }
+}
+
 nav.wp-block-navigation ul li a:hover {
   color: var(--wp--preset--color--light-color) !important;
 }
