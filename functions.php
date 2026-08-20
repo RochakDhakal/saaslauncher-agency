@@ -16,7 +16,7 @@ add_action( 'wp_enqueue_scripts', 'saaslauncher_agency_scripts' );
 /**
  * Registers pattern categories.
  *
- * @since agencylauncher 1.0.0
+ * @since SaasLauncher 1.0.0
  *
  * @return void
  */
@@ -25,7 +25,7 @@ function saaslauncher_agency_register_pattern_category() {
 	$patterns = array();
 
 	$block_pattern_categories = array(
-		'saaslauncher-agency-patterns' => array( 'label' => __( 'SaasLauncher Agency Patterns', 'agencylauncher' ) ),
+		'saaslauncher-agency-patterns' => array( 'label' => __( 'SaasLauncher Agency Patterns', 'saaslauncher-agency' ) ),
 	);
 
 	$block_pattern_categories = apply_filters( 'saaslauncher_agency_block_pattern_categories', $block_pattern_categories );
