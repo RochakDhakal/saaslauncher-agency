@@ -33,7 +33,11 @@
 <p style="margin-bottom:var(--wp--preset--spacing--40);text-transform:uppercase"><?php esc_html_e( 'Navigate', 'saaslauncher-agency' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:navigation {"ref":6,"overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","orientation":"vertical"}} /--></div>
+<!-- wp:navigation {"overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<!-- wp:home-link /-->
+<!-- wp:page-list /-->
+<!-- /wp:navigation -->
+</div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
