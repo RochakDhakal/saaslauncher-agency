@@ -5,6 +5,14 @@
  * Slug: saaslauncher-agency/teams
  * Categories:  saaslauncher-agency-patterns
  */
+$saaslauncher_agency_url        = trailingslashit( get_stylesheet_directory_uri() );
+	$saaslauncher_agency_images = array(
+		$saaslauncher_agency_url . 'assets/images/team-cover.png',
+		$saaslauncher_agency_url . 'assets/images/team-1.png',
+		$saaslauncher_agency_url . 'assets/images/team-2.png',
+		$saaslauncher_agency_url . 'assets/images/team-3.png',
+		$saaslauncher_agency_url . 'assets/images/team-4.png',
+	);
 ?>
 
 <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"1260px"}} -->

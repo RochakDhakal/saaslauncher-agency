@@ -8,9 +8,9 @@
 $saaslauncher_agency_url        = trailingslashit( get_stylesheet_directory_uri() );
 	$saaslauncher_agency_images = array(
 		$saaslauncher_agency_url . 'assets/images/hero-cover.png',
+		$saaslauncher_agency_url . 'assets/images/hero.jpg',
 		$saaslauncher_agency_url . 'assets/images/hero-icon-1.png',
 	);
-	?>
 ?>
 <!-- wp:cover {"url":"<?php echo esc_url( $saaslauncher_agency_images[0] ); ?>","id":22,"dimRatio":0,"isUserOverlayColor":true,"minHeight":950,"contentPosition":"top center","sizeSlug":"large","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"1280px"}} -->
 <div class="wp-block-cover has-custom-content-position is-position-top-center" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);min-height:950px"><img class="wp-block-cover__image-background wp-image-22 size-large" alt="" src="<?php echo esc_url( $saaslauncher_agency_images[0] ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"padding":{"top":"120px","bottom":"120px","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->
