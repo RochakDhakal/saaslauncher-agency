@@ -17,7 +17,7 @@ $saaslauncher_agency_url        = trailingslashit( get_stylesheet_directory_uri(
 <div class="wp-block-column" style="flex-basis:25%"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"giga"} -->
 <h2 class="wp-block-heading has-light-color-color has-text-color has-link-color has-giga-font-size">
 <?php
-	esc_html_e( '100+', 'abcd' );
+	esc_html_e( '100+', 'saaslauncher-agency' );
 ?>
 </h2>
 <!-- /wp:heading -->
@@ -25,7 +25,7 @@ $saaslauncher_agency_url        = trailingslashit( get_stylesheet_directory_uri(
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"},"spacing":{"margin":{"top":"var:preset|spacing|50"}}},"textColor":"foreground","fontSize":"medium"} -->
 <p class="has-foreground-color has-text-color has-link-color has-medium-font-size" style="margin-top:var(--wp--preset--spacing--50);text-transform:uppercase">
 <?php
-	esc_html_e( 'Projects completed', 'abcd' );
+	esc_html_e( 'Projects completed', 'saaslauncher-agency' );
 ?>
 </p>
 <!-- /wp:paragraph --></div>
@@ -35,7 +35,7 @@ $saaslauncher_agency_url        = trailingslashit( get_stylesheet_directory_uri(
 <div class="wp-block-column" style="flex-basis:25%"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"giga"} -->
 <h2 class="wp-block-heading has-light-color-color has-text-color has-link-color has-giga-font-size">
 <?php
-	esc_html_e( '50+', 'abcd' );
+	esc_html_e( '50+', 'saaslauncher-agency' );
 ?>
 </h2>
 <!-- /wp:heading -->
@@ -43,7 +43,7 @@ $saaslauncher_agency_url        = trailingslashit( get_stylesheet_directory_uri(
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"},"spacing":{"margin":{"top":"var:preset|spacing|50"}}},"textColor":"foreground","fontSize":"medium"} -->
 <p class="has-foreground-color has-text-color has-link-color has-medium-font-size" style="margin-top:var(--wp--preset--spacing--50);text-transform:uppercase">
 <?php
-	esc_html_e( 'Team Members', 'abcd' );
+	esc_html_e( 'Team Members', 'saaslauncher-agency' );
 ?>
 </p>
 <!-- /wp:paragraph --></div>
@@ -53,7 +53,7 @@ $saaslauncher_agency_url        = trailingslashit( get_stylesheet_directory_uri(
 <div class="wp-block-column" style="flex-basis:25%"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"giga"} -->
 <h2 class="wp-block-heading has-light-color-color has-text-color has-link-color has-giga-font-size">
 <?php
-	esc_html_e( '10+', 'abcd' );
+	esc_html_e( '10+', 'saaslauncher-agency' );
 ?>
 </h2>
 <!-- /wp:heading -->
@@ -61,7 +61,7 @@ $saaslauncher_agency_url        = trailingslashit( get_stylesheet_directory_uri(
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"},"spacing":{"margin":{"top":"var:preset|spacing|50"}}},"textColor":"foreground","fontSize":"medium"} -->
 <p class="has-foreground-color has-text-color has-link-color has-medium-font-size" style="margin-top:var(--wp--preset--spacing--50);text-transform:uppercase">
 <?php
-	esc_html_e( 'Worldwide Offices', 'abcd' );
+	esc_html_e( 'Worldwide Offices', 'saaslauncher-agency' );
 ?>
 </p>
 <!-- /wp:paragraph --></div>
@@ -71,7 +71,7 @@ $saaslauncher_agency_url        = trailingslashit( get_stylesheet_directory_uri(
 <div class="wp-block-column"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"giga"} -->
 <h2 class="wp-block-heading has-light-color-color has-text-color has-link-color has-giga-font-size">
 <?php
-	esc_html_e( '95%', 'abcd' );
+	esc_html_e( '95%', 'saaslauncher-agency' );
 ?>
 </h2>
 <!-- /wp:heading -->
@@ -79,7 +79,7 @@ $saaslauncher_agency_url        = trailingslashit( get_stylesheet_directory_uri(
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"textTransform":"uppercase"},"spacing":{"margin":{"top":"var:preset|spacing|50"}}},"textColor":"foreground","fontSize":"medium"} -->
 <p class="has-foreground-color has-text-color has-link-color has-medium-font-size" style="margin-top:var(--wp--preset--spacing--50);text-transform:uppercase">
 <?php
-	esc_html_e( 'Client Retention', 'abcd' );
+	esc_html_e( 'Client Retention', 'saaslauncher-agency' );
 ?>
 </p>
 <!-- /wp:paragraph --></div>

@@ -45,73 +45,121 @@ $saaslauncher_agency_url        = trailingslashit( get_stylesheet_directory_uri(
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|70"},"blockGap":{"top":"0","left":"0"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"}},"border":{"width":"1px","color":"#35393D","radius":{"topLeft":"34px","topRight":"34px","bottomLeft":"34px","bottomRight":"34px"}}},"backgroundColor":"primary-shade-one"} -->
 <div class="wp-block-columns has-border-color has-primary-shade-one-background-color has-background" style="border-color:#35393D;border-width:1px;border-top-left-radius:34px;border-top-right-radius:34px;border-bottom-left-radius:34px;border-bottom-right-radius:34px;margin-top:var(--wp--preset--spacing--70);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"width":"","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}},"border":{"top":{"width":"0px","style":"none"},"right":{"color":"var:preset|color|border-color","style":"solid","width":"1px"},"bottom":{"width":"0px","style":"none"},"left":{"width":"0px","style":"none"}}},"layout":{"type":"constrained","contentSize":"225px"}} -->
 <div class="wp-block-column" style="border-top-style:none;border-top-width:0px;border-right-color:var(--wp--preset--color--border-color);border-right-style:solid;border-right-width:1px;border-bottom-style:none;border-bottom-width:0px;border-left-style:none;border-left-width:0px;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"id":588,"width":"55px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_agency_images[1]);?>" alt="" class="wp-image-588" style="aspect-ratio:1;object-fit:cover;width:55px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $saaslauncher_agency_images[1] ); ?>" alt="" class="wp-image-588" style="aspect-ratio:1;object-fit:cover;width:55px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"fontSize":"x-large"} -->
-<h5 class="wp-block-heading has-x-large-font-size" style="margin-top:var(--wp--preset--spacing--60)">Elena Vasquez</h5>
+<h5 class="wp-block-heading has-x-large-font-size" style="margin-top:var(--wp--preset--spacing--60)">
+<?php
+	esc_html_e( 'Elena Vasquez', 'saaslauncher-agency' );
+?>
+</h5>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}},"fontSize":"normal"} -->
-<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--30)">Founder & Strategy Director</p>
+<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--30)">
+<?php
+	esc_html_e( 'Founder & Strategy Director', 'saaslauncher-agency' );
+?>
+</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"},"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
-<p style="margin-top:var(--wp--preset--spacing--40);text-transform:uppercase">Positioning · Research</p>
+<p style="margin-top:var(--wp--preset--spacing--40);text-transform:uppercase">
+<?php
+	esc_html_e( 'Positioning · Research', 'saaslauncher-agency' );
+?>
+</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}},"border":{"top":{"width":"0px","style":"none"},"right":{"color":"var:preset|color|border-color","style":"solid","width":"1px"},"bottom":{"width":"0px","style":"none"},"left":{"width":"0px","style":"none"}}},"layout":{"type":"constrained","contentSize":"225px"}} -->
 <div class="wp-block-column" style="border-top-style:none;border-top-width:0px;border-right-color:var(--wp--preset--color--border-color);border-right-style:solid;border-right-width:1px;border-bottom-style:none;border-bottom-width:0px;border-left-style:none;border-left-width:0px;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"id":597,"width":"55px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_agency_images[1]);?>" alt="" class="wp-image-597" style="aspect-ratio:1;object-fit:cover;width:55px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $saaslauncher_agency_images[1] ); ?>" alt="" class="wp-image-597" style="aspect-ratio:1;object-fit:cover;width:55px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"fontSize":"x-large"} -->
-<h5 class="wp-block-heading has-x-large-font-size" style="margin-top:var(--wp--preset--spacing--60)">Marcus Aoki</h5>
+<h5 class="wp-block-heading has-x-large-font-size" style="margin-top:var(--wp--preset--spacing--60)">
+<?php
+	esc_html_e( 'Marcus Aoki', 'saaslauncher-agency' );
+?>
+</h5>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}},"fontSize":"normal"} -->
-<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--30)">Creative Director</p>
+<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--30)">
+<?php
+	esc_html_e( 'Creative Director', 'saaslauncher-agency' );
+?>
+</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"},"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
-<p style="margin-top:var(--wp--preset--spacing--40);text-transform:uppercase">Identity · Art direction</p>
+<p style="margin-top:var(--wp--preset--spacing--40);text-transform:uppercase">
+<?php
+	esc_html_e( 'Identity · Art direction', 'saaslauncher-agency' );
+?>
+</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}},"border":{"top":{"width":"0px","style":"none"},"right":{"color":"var:preset|color|border-color","style":"solid","width":"1px"},"bottom":{"width":"0px","style":"none"},"left":{"width":"0px","style":"none"}}},"layout":{"type":"constrained","contentSize":"225px"}} -->
 <div class="wp-block-column" style="border-top-style:none;border-top-width:0px;border-right-color:var(--wp--preset--color--border-color);border-right-style:solid;border-right-width:1px;border-bottom-style:none;border-bottom-width:0px;border-left-style:none;border-left-width:0px;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"id":598,"width":"55px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_agency_images[1]);?>" alt="" class="wp-image-598" style="aspect-ratio:1;object-fit:cover;width:55px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $saaslauncher_agency_images[1] ); ?>" alt="" class="wp-image-598" style="aspect-ratio:1;object-fit:cover;width:55px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"fontSize":"x-large"} -->
-<h5 class="wp-block-heading has-x-large-font-size" style="margin-top:var(--wp--preset--spacing--60)">Priya Raman</h5>
+<h5 class="wp-block-heading has-x-large-font-size" style="margin-top:var(--wp--preset--spacing--60)">
+<?php
+	esc_html_e( 'Priya Raman', 'saaslauncher-agency' );
+?>
+</h5>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}},"fontSize":"normal"} -->
-<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--30)">Head of Product Design</p>
+<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--30)">
+<?php
+	esc_html_e( 'Head of Product Design', 'saaslauncher-agency' );
+?>
+</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"},"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
-<p style="margin-top:var(--wp--preset--spacing--40);text-transform:uppercase">SaaS · Design systems</p>
+<p style="margin-top:var(--wp--preset--spacing--40);text-transform:uppercase">
+<?php
+	esc_html_e( 'SaaS · Design systems', 'saaslauncher-agency' );
+?>
+</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}},"border":{"top":{"width":"0px","style":"none"},"right":{"color":"var:preset|color|border-color","style":"solid","width":"1px"},"bottom":{"width":"0px","style":"none"},"left":{"width":"0px","style":"none"}}},"layout":{"type":"constrained","contentSize":"225px"}} -->
 <div class="wp-block-column" style="border-top-style:none;border-top-width:0px;border-right-color:var(--wp--preset--color--border-color);border-right-style:solid;border-right-width:1px;border-bottom-style:none;border-bottom-width:0px;border-left-style:none;border-left-width:0px;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"id":599,"width":"55px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_agency_images[1]);?>" alt="" class="wp-image-599" style="aspect-ratio:1;object-fit:cover;width:55px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $saaslauncher_agency_images[1] ); ?>" alt="" class="wp-image-599" style="aspect-ratio:1;object-fit:cover;width:55px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"fontSize":"x-large"} -->
-<h5 class="wp-block-heading has-x-large-font-size" style="margin-top:var(--wp--preset--spacing--60)">Tom Berger</h5>
+<h5 class="wp-block-heading has-x-large-font-size" style="margin-top:var(--wp--preset--spacing--60)">
+<?php
+	esc_html_e( 'Tom Berger', 'saaslauncher-agency' );
+?>
+</h5>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}},"fontSize":"normal"} -->
-<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--30)">Engineering Lead</p>
+<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--30)">
+<?php
+	esc_html_e( 'Engineering Lead', 'saaslauncher-agency' );
+?>
+</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"},"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
-<p style="margin-top:var(--wp--preset--spacing--40);text-transform:uppercase">Performance · Headless</p>
+<p style="margin-top:var(--wp--preset--spacing--40);text-transform:uppercase">
+<?php
+	esc_html_e( 'Performance · Headless', 'saaslauncher-agency' );
+?>
+</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
